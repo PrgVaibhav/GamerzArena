@@ -1,0 +1,84 @@
+@media (min-width:1024px){
+    .card{
+        width: 95%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1023px){
+    .nav-description h1{
+        font-size: 2.1rem;
+        line-height: 1.4;
+    }
+    .nav-description p{
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+    .card{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 768px){
+    .nav-lists{
+        width: 100%;
+        display: none;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-lists ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav-lists a{
+        text-align: center;
+        padding: .6rem;
+    }
+    .nav-lists.active{
+        display: flex;
+    }
+    .toggle{
+        display: flex;
+    }
+
+    .nav-description{
+        width: 70%;
+        margin: 5rem 0 0 2rem;
+    }
+    .nav-description h1{
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+    .nav-description p{
+        font-size: 1.1rem;
+    }
+    .btn{
+        padding: .7rem .7rem;
+    }
+    .nav-btn{
+        font-size: .9rem;
+    }
+
+    // Collaboration section
+
+    .section-description h1{
+        font-size: 1.2rem;
+    }
+    .section-description p{
+        font-size: 1rem;
+    }
+    .card{
+        flex-direction: column;
+    }
+
+    // footer card
+
+    .footer-header{
+        font-size: 1.2rem;
+    }
+    .footer-description{
+        font-size: 1.1rem;
+    }
+}
